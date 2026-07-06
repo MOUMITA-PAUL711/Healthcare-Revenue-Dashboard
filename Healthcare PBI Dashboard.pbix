@@ -1,43 +1,59 @@
-# Healthcare Revenue Dashboard
+# Hospital Revenue Analytics Dashboard 🏥💰
 
-An interactive Power BI dashboard focused on analyzing hospital financial performance, billing revenue streams, and patient admission demographics. This tool provides healthcare administrators with key financial metrics to optimize billing operations and understand revenue drivers.
+An interactive and data-driven **Power BI Dashboard** engineered to track, analyze, and optimize hospital financial performance. This project provides health administration executives with real-time visibility into revenue streams, billing cycles, department profitability, and outstanding receivables.
 
-## 🚀 Key Features & Insights
-* **Financial Overview KPIs:** Tracks crucial financial metrics including **$336M Total Billing Revenue**, **$335.39M Sum of Average Billing**, and emergency-driven revenue insights.
-* **Insurance Provider Breakdown:** A comprehensive pie chart analyzing the distribution of billing amounts across major insurance providers (Medicare, Aetna, Blue Cross, UnitedHealthcare, and Cigna).
-* **Admission Financials:** Visualizes average billing amounts grouped by admission types (e.g., Emergency).
-* **Top Revenue-Generating Hospitals:** A ranked horizontal bar chart illustrating total billing revenue generated across individual facility entities (e.g., Smith Ltd, Inc Jones, Inc Brown).
-* **Patient & Admission Trends:** Features a multi-year line chart (2020–2024) tracking total patient volumes alongside a donut chart breaking down admission categories.
-* **Dynamic Slicers:** Fully interactive filters for Date of Admission, Insurance Provider, Hospital entity, and Admission Type.
+---
 
-## 📊 Preview
-Below is a preview of the interactive dashboard interface:
+## 🚀 Key Features
 
-![Healthcare Revenue Dashboard](Screenshot%202026-06-30%20101352.jpg)
+* **Financial Performance Overview:** Real-time tracking of Total Revenue, Net Profit Margins, and Average Cost per Patient.
+* **Departmental Revenue Breakdown:** In-depth comparative analysis across critical departments (e.g., Cardiology, ER, Oncology, Outpatient).
+* **Payer & Claims Analysis:** Performance evaluation of insurance provider reimbursement rates, claims denial percentages, and self-pay distributions.
+* **Operational Efficiency Metrics:** Visualization of how average length of stay (ALOS) correlates directly with billing and total revenue generation.
+* **Historical Trend Forecasting:** Time-series tracking of financial collection efficiency to detect seasonal variance in healthcare revenue.
 
-## 🛠️ Tech Stack
-* **BI Tool:** Power BI Desktop
-* **Data Sources:** Healthcare Billing & Hospital Datasets
-* **Data Modeling:** DAX (Data Analysis Expressions) for custom KPIs and averages
+---
 
-# Healthcare Patient's Care Dashboard
+## 🛠️ Built With
 
-An interactive Power BI dashboard engineered to track patient demographics, health conditions, clinical outcomes, and medical treatments. Designed for clinical coordinators and healthcare operations teams to monitor overall patient care efficacy and diagnostic metrics.
+* **Power BI Desktop:** Core platform utilized for report generation and visual designs.
+* **DAX (Data Analysis Expressions):** Advanced customized modeling for calculated measures (e.g., YoY growth, collection rates).
+* **Power Query:** Robust ETL processes used for cleaning, merging, and transforming unstructured data sources.
 
-## 🚀 Key Features & Insights
-* **Operational & Demographics KPIs:** Provides high-level visibility into a network of **12K Total Doctors**, **13K Total Unique Patients**, and an overall **Average Patient Age of 51.86**.
-* **Diagnostic Test Metrics:** Monitors clinical accuracy and patient health profiles via the **33.84% Abnormal Test Rate** and **0.33% Inconclusive Test Rate** indicators.
-* **Medical Condition Deep Dive:** A horizontal bar chart identifying the volume of patients suffering from key chronic conditions like Obesity, Arthritis, Diabetes, Asthma, Cancer, and Hypertension.
-* **Patient Demographics:** Features a breakdown of patient age groups across generations (Boomers & Older, Gen X, Millennials, Gen Z) and a treemap classifying patients by Blood Type and Gender.
-* **Treatment & Outcome Matrix:** A detailed tabular view cross-referencing specific Medical Conditions, prescribed Medications (e.g., Aspirin, Ibuprofen, Lipitor), and their corresponding Test Results.
-* **Granular Cross-Filtering:** Equipped with quick-access slicers for Medical Condition, Blood Type, Generational Category, Test Results, Medication, and Gender.
+---
 
-## 📊 Preview
-Below is a preview of the interactive dashboard interface:
+## 📂 Repository Structure
 
-![Healthcare Patient's Care Dashboard](Screenshot%202026-06-30%20101404.jpg)
+* `📁 Dashboard/` - Contains the final `.pbix` Power BI project file.
+* `📁 Data/` - Cleaned/synthesized datasets utilized for the model (Excel/CSV formats).
+* `📁 Screenshots/` - High-resolution captures of the active workspace tabs.
 
-## 🛠️ Tech Stack
-* **BI Tool:** Power BI Desktop
-* **Data Sources:** Healthcare Patient & Clinical Trial Dataset
-* **Data Modeling:** Power Query (ETL) and DAX modeling for generational bucketing and test rate percentages
+# Hospital Patient Care & Clinical Insights Dashboard 🩺👥
+
+An advanced **Power BI Dashboard** developed to monitor clinical operations, patient care quality, and hospital capacity management. This business intelligence solution empowers healthcare teams to improve patient outcomes, optimize bed utilization, and manage clinical resources effectively.
+
+---
+
+## 🚀 Key Features
+
+* **Patient Volume & Capacity KPIs:** High-level metrics for Total Admissions, Discharge Rates, and Active Bed Occupancy.
+* **Care Quality & Safety Tracking:** Visual insights into patient readmission rates, clinical complication statistics, and satisfaction scores (HCAHPS).
+* **Demographic & Diagnostic Profiling:** Detailed breakdowns of patient groups categorized by age tier, gender, and primary illness classification.
+* **Operational Bottleneck Discovery:** Length of Stay (LOS) analysis sliced by attending physician and clinical department to reduce wait times.
+* **Critical Care Monitoring:** Specialized analysis tracking Intensive Care Unit (ICU) admission rates and corresponding critical care operational metrics.
+
+---
+
+## 🛠️ Built With
+
+* **Power BI Desktop:** The application used for data visualization, dashboard building, and data model mapping.
+* **DAX (Data Analysis Expressions):** Complex calculations constructed for active bed counts, moving averages, and patient satisfaction benchmarks.
+* **Power Query:** Heavy transformations utilizing relational model structures optimized for clinical data patterns.
+
+---
+
+## 📂 Repository Structure
+
+* `📁 Dashboard/` - Holds the complete `.pbix` data model project.
+* `📁 Data/` - Anonymized/sample clinical data sheets feeding the model architecture.
+* `📁 Screenshots/` - Interface views highlighting active filters and slicer selections.
